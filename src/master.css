@@ -1,0 +1,44 @@
+body {
+  padding-top: 5rem;
+  /* background: #EBEBEB; */
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.starter-template p {
+  text-indent:50px;
+  text-align: left;
+}
+.navbar{
+  background: #3F5161;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #427CAC;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #427CAC !Important;
+    border: solid 1px #427CAC !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #427CAC !Important;
+    border: solid 1px #427CAC;
+}
